@@ -19,3 +19,5 @@ class RecipeFlowsTest < ActionDispatch::IntegrationTest
 		assert assigns(:recipes)
 	end
 end
+
+
