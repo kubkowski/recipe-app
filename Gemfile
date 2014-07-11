@@ -31,6 +31,8 @@ gem 'spring',        group: :development
 
 # Use unicorn as the app server
 gem 'unicorn'
+
+# Use Devise for user authetication
 gem 'devise'
 
 # Use Capistrano for deployment
@@ -38,4 +40,10 @@ gem 'devise'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Use Twitter Bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
+
 
