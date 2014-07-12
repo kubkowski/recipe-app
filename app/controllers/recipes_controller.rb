@@ -6,9 +6,6 @@ class RecipesController < ApplicationController
   # GET /recipes.json
   def index
     @recipes = Recipe.all
-    @food_preferences = FoodPreference.all
-    @food_types = FoodType.all
-    @cuisines = Cuisine.all
   end
 
   # GET /recipes/1
